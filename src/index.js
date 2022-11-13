@@ -3,7 +3,7 @@
 // left @ Adding Time Travel
 
 import React from "react"
-import { Game } from "./Game";
+import Game from "./Game";
 import ReactDOM from "react-dom"
 
 // ========================================

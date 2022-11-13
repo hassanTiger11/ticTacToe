@@ -3,7 +3,7 @@ import React from "react"
 import Square from './Square'
 import "./index.css"
 
-export class Board extends React.Component {
+export default class Board extends React.Component {
     constructor(props){
       super(props)
       //keeps track of X and O's
