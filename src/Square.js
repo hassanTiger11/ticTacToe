@@ -1,6 +1,6 @@
 import React from "react"
-import "./index.css"
 
+import "./Square.css"
 export default function Square (props) {
     return (
       <button className="square"

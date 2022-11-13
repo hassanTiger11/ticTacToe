@@ -1,0 +1,24 @@
+.board{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:hidden;
+    
+}
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+.status {
+    margin-bottom: 10px;
+    font-size: 32px;
+  }
+  
+.board-boxes{
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}

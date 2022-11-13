@@ -1,0 +1,26 @@
+
+
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+
+  @media screen and (min-width: 280px) {
+    .square {
+        background: #fff;
+        border: 1px solid #999;
+        float: left;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 34px;
+        height:128px;
+        width: 128px;
+        padding: 0;
+        text-align: center;
+        
+    }
+  }
